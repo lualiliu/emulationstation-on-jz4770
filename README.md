@@ -55,7 +55,7 @@ make
 
 Complete Raspberry Pi build instructions at [emulationstation.org](http://emulationstation.org/gettingstarted.html#install_rpi_standalone).
 
-**On the Raspberry Pi:**
+**On the Jz4770**
 
 ```bash
 cd YourEmulationStationDirectory
