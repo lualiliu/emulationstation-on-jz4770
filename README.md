@@ -5,8 +5,8 @@ A cross-platform graphical front-end for emulators with controller navigation.
 
 Project website: http://emulationstation.org
 
-**Raspberry Pi users:**
-A cool guy named petrockblog made a script which automatically installs many emulators and ES. It also includes options for configuring your RPi and setting it up to boot directly into ES. You can find it here: https://github.com/petrockblog/RetroPie-Setup
+**JZ4770 users:**
+You need to ensure the integrity of the toolchain.
 
 Download
 ========
@@ -54,6 +54,16 @@ make
 **On the Raspberry Pi:**
 
 Complete Raspberry Pi build instructions at [emulationstation.org](http://emulationstation.org/gettingstarted.html#install_rpi_standalone).
+
+**On the Raspberry Pi:**
+
+```bash
+cd YourEmulationStationDirectory
+mkdir build
+cd build
+cmake ..
+make
+```
 
 **On Windows:**
 
